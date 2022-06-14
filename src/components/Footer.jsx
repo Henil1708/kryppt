@@ -1,3 +1,4 @@
+import { GiBrokenHeart } from "react-icons/gi"
 import logo from "../../images/logo.png"
 const Footer = () => {
   return (
@@ -22,6 +23,9 @@ const Footer = () => {
         <p className="text-white text-center text-sm">codebyhenil</p>
         <p className="text-white text-center text-sm">All rights reserved.</p>
       </div>
+      <div className=" py-3  text-white text-center text-lg">
+        <p className="flex items-center justify-center"><span> <GiBrokenHeart className="mr-2" color="#FF4033" /></span>Thanks for visting the website. <span> <GiBrokenHeart className="ml-2" color="#FF4033" /></span></p>
+    </div>
     </div>
   )
 }
